@@ -34,7 +34,7 @@ public class
 SkiersServlet extends HttpServlet {
 
   private final static String QUEUE_NAME = "SKIER_TASK";
-  private final static String RMQ_HOST = "35.161.159.88";
+  private final static String RMQ_HOST = "54.218.104.130";
   private final static String USERNAME = "user";
   private final static String PASSWORD = "password";
   private static final int MAX_POOL_SIZE = 100;
@@ -70,7 +70,7 @@ SkiersServlet extends HttpServlet {
       }
     };
     pool = new GenericObjectPool<>(channelFactory);
-    breaker = new EventCountCircuitBreaker(4000, 1000, TimeUnit.MILLISECONDS, 2000, 1000,
+    breaker = new EventCountCircuitBreaker(3000, 1000, TimeUnit.MILLISECONDS, 1500, 1000,
         TimeUnit.MILLISECONDS);
   }
 

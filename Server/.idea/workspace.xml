@@ -10,52 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cc878f1-d7ff-4532-95d5-25aa160098ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/ClientApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/Phase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/Phase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/PostThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/PostThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part1/TestThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part1/TestThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/main/java/Part2/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/main/java/Part2/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/ClientApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/ClientApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/Phase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/Phase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/PostThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/PostThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part1/TestThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part1/TestThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/target/classes/Part2/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/target/classes/Part2/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/ESWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/ESWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/MyQueueConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/QueueListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/ThreadedWorker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/ThreadedWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/VariableLengthTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/WorkDistribution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Consumer/target/classes/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Output2.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Server_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Server_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Server_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Server_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumer/src/main/java/ResortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumer/src/main/java/ResortService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Consumer/src/main/java/SkierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Consumer/src/main/java/SkierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war/Server_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war/Server_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/ResortsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/ResortsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/classes/Servlet/SkiersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Server_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Resort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Resort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/ResortsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/ResortsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/SkiersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/SkiersServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/ResortsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/ResortsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servlet/SkiersServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +63,7 @@
       <workItem from="1649265840511" duration="1000" />
       <workItem from="1649265868310" duration="3569000" />
       <workItem from="1649276621741" duration="8453000" />
+      <workItem from="1649387942873" duration="3245000" />
     </task>
     <servers />
   </component>

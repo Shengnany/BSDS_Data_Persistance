@@ -65,7 +65,7 @@ public class PostThread extends Thread {
   public void run() {
     success = 0;
     fail = 0;
-    EventCountCircuitBreaker breaker = new EventCountCircuitBreaker(1000, 1000, TimeUnit.MILLISECONDS, 200, 1000,
+    EventCountCircuitBreaker breaker = new EventCountCircuitBreaker(1000, 1000, TimeUnit.MILLISECONDS, 500, 1000,
         TimeUnit.MILLISECONDS);
     AtomicInteger i = new AtomicInteger(0);
     while (i.get() < numRequests) {
@@ -99,7 +99,7 @@ public class PostThread extends Thread {
                 remain--;
                 responseCode = e2.getCode();
                 try {
-                  Thread.sleep(5-remain);
+                  Thread.sleep((5-remain)*100);
                 } catch (InterruptedException ex) {
                   ex.printStackTrace();
                 }

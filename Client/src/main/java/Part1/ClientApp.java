@@ -19,7 +19,7 @@ import org.apache.commons.lang3.concurrent.EventCountCircuitBreaker;
 
 public class ClientApp {
   // 128 20000 40 20
-  // 54.213.49.251 8080
+  //35.89.62.137 8080
 
   private static int numThreads;
   private static int numSkiers;

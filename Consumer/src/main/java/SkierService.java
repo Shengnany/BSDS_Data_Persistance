@@ -4,6 +4,8 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 import java.io.IOException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import redis.clients.jedis.Jedis;
@@ -17,7 +19,7 @@ public class SkierService {
   public final static String QUEUE_NAME = "SKIER_TASK";
   public final static String USERNAME = "user";
   public final static String PASSWORD = "password";
-  public final static int MAX_THREADS = 256;
+  public final static int MAX_THREADS = 128;
   public final static String SEP = "__";
   public final static String VERTICAL_TOTAl = "vertical";
   public final static String DAY_TOTAl = "day";
@@ -177,9 +179,10 @@ public class SkierService {
 //    Properties pro = new Properties();
 //    pro.load(new FileReader("props.txt"));
 //    int MAX_THREADS = Integer.valueOf(pro.getProperty("MAX_THREAD"));
+    ExecutorService executor = Executors.newFixedThreadPool(MAX_THREADS);
+
     for (int i = 0; i < MAX_THREADS ; i++) {
-      Thread recv = new Thread(runnable);
-      recv.start();
+      executor.submit(runnable);
     }
   }
 }
